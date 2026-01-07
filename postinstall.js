@@ -325,10 +325,12 @@ process.on('unhandledRejection', (error) => {
     process.exit(1);
 });
 
+process.exit(0);
+
 // Run the main function
-if (require.main === module) {
-    main().catch((error) => {
-        console.error('\n❌ Fatal error:', error);
-        process.exit(1);
-    });
-}
+// if (require.main === module) {
+//     main().catch((error) => {
+//         console.error('\n❌ Fatal error:', error);
+//         process.exit(1);
+//     });
+// }
