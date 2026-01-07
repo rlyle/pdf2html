@@ -8,6 +8,6 @@ module.exports = {
     DIRECTORY: {
         PDF: path.join(os.tmpdir(), './files/pdf/'),
         IMAGE: path.join(os.tmpdir(), './files/image/'),
-        VENDOR: path.join(__dirname, './vendor/'),
+        VENDOR: path.join(os.tmpdir(), './vendor/'),
     },
 };
