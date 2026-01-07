@@ -1,5 +1,5 @@
 {
-    "name": "pdf2html",
+    "name": "@rlyle1179/pdf2html",
     "version": "4.4.0",
     "description": "PDF to HTML or Text conversion using Apache Tika. Also generate PDF thumbnail using Apache PDFBox.",
     "main": "index.js",
@@ -45,10 +45,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/shebinleo/pdf2html.git"
+        "url": "https://github.com/rlyle/pdf2html.git"
     },
     "bugs": {
-        "url": "https://github.com/shebinleo/pdf2html/issues"
+        "url": "https://github.com/rkyke/pdf2html/issues"
     },
     "keywords": [
         "pdftohtml",
