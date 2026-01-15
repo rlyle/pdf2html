@@ -5,9 +5,12 @@ const CommandExecutor = require('./lib/CommandExecutor');
 const ImageProcessor = require('./lib/ImageProcessor');
 const FileManager = require('./lib/FileManager');
 const HTMLParser = require('./lib/HTMLParser');
+const { DEFAULT_OPTIONS } = require('./lib/config');
 
 // Export main functions with backward compatibility
 module.exports = {
+    DEFAULT_OPTIONS,
+    
     // Main API - bind methods to maintain the correct 'this' context
     html: PDFProcessor.toHTML.bind(PDFProcessor),
     pages: PDFProcessor.toPages.bind(PDFProcessor),
